@@ -7,12 +7,23 @@
     android:layout_height="match_parent"
     tools:context=".TampilData">
 
+    <View
+        android:layout_centerInParent="true"
+        android:id="@+id/vietestsatu"
+        android:layout_marginTop="100dp"
+        android:background="#ffa000"
+        android:layout_width="300dp"
+        android:layout_height="200dp"/>
+
     <TextView
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/vietestsatu"
         android:id="@+id/namaData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nama"
-        android:layout_centerInParent="true"
+        android:textSize="20sp"
+        android:text="Nama Panjang"
+        android:textStyle="bold"
         android:gravity="center"/>
 
 
@@ -20,7 +31,7 @@
         android:id="@+id/tanggalData"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tanggal"
+        android:text="tanggal lahir dan tempat lahir"
         android:layout_below="@id/namaData"
         android:layout_marginTop="8dp"
         android:gravity="center"/>
